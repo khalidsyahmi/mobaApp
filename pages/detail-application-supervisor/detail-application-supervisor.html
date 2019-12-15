@@ -1,0 +1,74 @@
+<!--
+  
+  work in progress
+    >view table of applications
+    >approve
+    >relational table
+    >???
+
+-->
+<ion-header>
+  <ion-navbar>
+    <ion-title>detail-application-supervisor</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+	 <form submit="createItem()">
+
+	 <ion-item>
+       <ion-label position="fixed">Nama Staf :</ion-label>
+  <ion-textarea placeholder=""></ion-textarea>
+</ion-item>
+
+<ion-item>
+       <ion-label position="fixed">Jawatan :</ion-label>
+  <ion-textarea placeholder=""></ion-textarea>
+</ion-item>
+
+<ion-item>
+  <ion-label>Tarikh :</ion-label>
+  <ion-datetime display-format="MM/YYYY" picker-format="MMMM YYYY"></ion-datetime>
+</ion-item>
+
+<ion-item>
+       <ion-label position="fixed">Tempoh yang diperlukan :</ion-label>
+     </ion-item>
+       <ion-item>
+       <ion-label>Jam :</ion-label>
+  <ion-datetime displayFormat="HH:mm"></ion-datetime>
+</ion-item>
+
+<p align="center"> Sehingga </p>
+
+ <ion-item>
+       <ion-label>Waktu :</ion-label>
+  <ion-datetime displayFormat="HH:mm"></ion-datetime>
+</ion-item>
+
+<br>
+
+<ion-list radio-group>
+
+	<ion-item>
+    <ion-label>Terima</ion-label>
+    <ion-radio checked="true" value="Terima"></ion-radio>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Tolak</ion-label>
+    <ion-radio checked="" value="Tolak"></ion-radio>
+  </ion-item>
+
+</ion-list>
+
+
+<button ion-button>Submit</button>
+
+
+</form>
+
+
+
+
+</ion-content>

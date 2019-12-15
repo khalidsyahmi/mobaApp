@@ -1,0 +1,20 @@
+<ion-content scroll="false">
+  <div class="splash-bg"></div>
+  <div class="splash-info">
+    <!-- Disable splash logo
+    <div class="splash-logo"></div>
+    -->
+    <br><br><br><br><br><br>
+    <div class="splash-intro">
+      {{ 'WELCOME_INTRO' | translate }}
+      <br>
+      {{ 'WELCOME_INTRO2' | translate }}
+    </div>
+  </div>
+  <div padding>
+    <!-- Disable signup button
+    <button ion-button block (click)="signup()">{{ 'SIGNUP' | translate }}</button>
+    -->
+    <button ion-button block (click)="login()">{{ 'LOGIN' | translate }}</button>
+  </div>
+</ion-content>

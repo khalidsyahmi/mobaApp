@@ -1,0 +1,62 @@
+<!--
+  Generated template for the AddApplicationPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar color="primary">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title align ="center">{{'ADD_FORM_APP' | translate }}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding >
+    <form *ngIf="leaveForm" [formGroup]="leaveForm" >
+    <ion-title align ="center" >{{'OFFICE_HOUR_LEAVE_FORM'| translate }}</ion-title><br><br>
+
+
+  <h6 text-center>{{'ADD_EXPLAIN' | translate }}</h6>
+
+<!-- tb id / motive / duration / dateApplication / staffId  -->
+
+  <ion-item color="gray">
+    <p align="center">{{'ADD_MOTIVE' | translate }}</p> 
+    <ion-textarea placeholder="State your reason of leave" formControlName="motive"></ion-textarea>
+  </ion-item>
+
+
+  <ion-item >
+    <ion-label align="center">{{'ADD_DURRAY' | translate }}</ion-label>
+  </ion-item>
+      
+  <ion-item color="primary" >
+    <ion-label color="light">{{'ADD_DURRAY1' | translate }}</ion-label>
+    <ion-datetime displayFormat="hh:mm A" formControlName="duration1"></ion-datetime>
+  </ion-item>
+
+<p align="center"> {{'ADD_TIL' | translate }}</p>
+
+  <ion-item color="primary">
+    <ion-label color="light">{{'ADD_DURRAY2' | translate }}</ion-label>
+    <ion-datetime displayFormat="hh:mm A" formControlName="duration2"></ion-datetime>
+  </ion-item>
+
+  <ion-item>
+    <ion-label> {{'ADD_DATE' | translate }} </ion-label>
+    <ion-input type="date" formControlName="dateApplication">
+    </ion-input>
+  </ion-item>
+
+  <div text-center>
+    <button ion-button (click)= "saveEntry()" strong>Submit </button>
+
+  </div>
+
+</form>
+
+
+
+</ion-content>
