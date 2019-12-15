@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "791319640798",
+    "firebase_url": "https://offleaveppkt.firebaseio.com",
+    "project_id": "offleaveppkt",
+    "storage_bucket": "offleaveppkt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:791319640798:android:ff373da5174c571a60204f",
+        "android_client_info": {
+          "package_name": "com.beryunq.offleaveppkt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "791319640798-69g1a5k23id23uugu37tqglviuo7ncbb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuHn-LK3UQ5YnRb9TXYPg9DGFxg7rh314"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "791319640798-69g1a5k23id23uugu37tqglviuo7ncbb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
